@@ -1,0 +1,23 @@
+<div class="container">
+  <div id="timer">this is a <strong>pomodoro clock</strong>...</div>
+  <div class="columns">
+    <div class="column is-one-quarter">
+      <input id="work" onkeyup="stopper();inputWorkRest()" class="input" type="number" placeholder="Work Duration">
+    </div>
+    <div class="column is-one-quarter">
+      <input id="rest" onkeyup="stopper();inputWorkRest()"class="input" type="number" placeholder="Break Duration">
+    </div>
+    <div class="column">
+      <a id="go" onClick="timer()" class="button is-outlined">Start</a>
+    </div>
+    <div class="column">
+      <a id="stop" onClick="stopper()"class="button is-outlined">Stop</a>
+    </div>
+    <div class="column">
+      <a id="reset" onClick="resetter()"class="button is-outlined">Reset</a>
+    </div>
+  </div>
+  <div id="footer">
+    <p>Designed and coded by Ridha Watanabe</p>
+  </div>
+</div>

@@ -1,0 +1,35 @@
+.container{
+  padding: 0px 200px 0px 200px
+}
+#timer {
+  text-align:center;
+  font-size:2vw;
+  height:40px;
+  margin:7vw
+}
+.button {
+  width:100%;
+}
+#timer strong{
+  color:red
+}
+.is-focused {
+  color:red
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.input:focus {
+    outline: none !important;
+    border:1px solid grey;
+    box-shadow: 0 0 1px #719ECE;
+}
+#footer{
+  margin:20px;
+  text-align:center;
+}
